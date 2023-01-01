@@ -1,0 +1,17 @@
+#wrapper{
+    width: 400px;
+    background-color:#dddddd;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#wrapper p{
+    font-size: 18px;
+}
+
+#wrapper h1{
+   text-align: center;
+}
