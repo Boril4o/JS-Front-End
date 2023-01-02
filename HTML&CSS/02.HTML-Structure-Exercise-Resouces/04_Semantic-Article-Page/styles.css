@@ -1,0 +1,17 @@
+article{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b2ad7d;
+    margin: 15px 10px;
+    background-color: #f2f4c0;
+    padding: 5px 15px;
+}
+
+.CommentArticle{
+    font-style: italic;
+    color: #4c7658;
+}
+
+body{
+    background-color: #e4e978;
+}
