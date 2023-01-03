@@ -1,0 +1,47 @@
+.list-type-square{
+    list-style-type: square;
+}
+
+.list-type-filled-circle{
+    list-style-type: disc;
+}
+
+.list-type-empty-circle{
+    list-style-type: circle;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 60px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+blockquote{
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-left-color: rgb(221,221,221);
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+   border: 1px solid #dddddd;
+   width: 700px;
+   padding: 5px;
+}
+
+th{
+    background-color: gray;
+}
+
+tr:nth-child(even){
+    background-color: #f1efef;
+}
