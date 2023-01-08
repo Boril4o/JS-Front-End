@@ -1,0 +1,41 @@
+.viewport:first-child{
+    background-color: #F95700FF;
+}
+
+.viewport:nth-child(2){
+    background-color: #89ABE3FF;
+}
+
+.viewport{
+    height: 50vh;
+}
+
+.viewport .viewport-content:first-child img{
+    width: 300px;
+}
+
+.viewport .viewport-content:last-child img{
+    width: 200px;
+}
+
+.viewport{
+    position: relative;
+}
+
+.viewport .viewport-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport .viewport-content .icon{
+    display: inline-block;
+}
+
+.viewport .viewport-content .icon i{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
