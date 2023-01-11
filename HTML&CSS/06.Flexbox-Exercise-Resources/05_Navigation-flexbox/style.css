@@ -1,0 +1,19 @@
+body{
+    padding: 30px 80px;
+}
+
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a{
+    color: rgb(0, 153, 0);
+}

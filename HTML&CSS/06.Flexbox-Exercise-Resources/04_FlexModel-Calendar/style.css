@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+div, section{
+    display: flex;
+    align-items: center;
+}
+
+section{
+    flex-wrap: wrap;
+}
+
+div{
+    max-width: 65vw;
+}
+
+.span--Workweek, .span--Weekend{
+    flex-basis: 100%;
+}
+
+.span--day--of--week{
+    flex-basis: 15.1%;
+}
+
+.span--day--of--Weekend{
+    flex-basis: 45.1%;
+}
+
+.notes{
+    flex-direction: row;
+}
+
+span{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.span--notes--item{
+    height: 80px;
+}
