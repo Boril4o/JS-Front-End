@@ -8,9 +8,12 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    min-height: 500px;
+    align-items: center;
+    height: 700px;
+    width: 500px;
 }
 
 
 .img--stretched{
+    align-self: stretch;
 }
