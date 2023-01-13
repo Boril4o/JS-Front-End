@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Poppins';
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+
+.main{
+    max-width: 1540px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.features{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.features .feature{
+    display: flex;
+    align-items: center;
+}
+
+.main .info, 
+.main .main-image{
+    flex-basis: 50%;
+}
+
