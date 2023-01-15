@@ -1,7 +1,8 @@
 function sumOfLastAndFirstIndex(array){
-    let newArray = new Array(...array);
-    let sum = newArray.shift + newArray.pop();
-    return sum;
+    let newArray = array.map(Number);
+    let firstNum = newArray.shift();
+    let lastNum = newArray.pop();
+    return firstNum + lastNum;
 }
     
-console.log(sumOfLastAndFirstIndex([10, 20 ,30]))
+console.log(sumOfLastAndFirstIndex(['5', '10']))
