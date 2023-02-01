@@ -1,0 +1,18 @@
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 20px;    
+}
+
+.react-icon {
+    width: 100px;
+}
+
