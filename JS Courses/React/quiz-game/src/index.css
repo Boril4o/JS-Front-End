@@ -1,0 +1,41 @@
+.main-container {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.question-container {
+    background-color: #FFA500;
+}
+
+.answers-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.next-container {
+    background-color: #FFA500;
+}
+
+button {
+    border: 1px solid black;
+    background-color: #FFCA4B;
+    opacity: 0.9;
+}
+
+
+.rigth-answer {
+    color: green;
+}
+
+.wrong-answer {
+    color: red;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,160 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "answers": [
+                {
+                    "answerId": 1,
+                    "answer": "Madrid",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 2,
+                    "answer": "Rome",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 3,
+                    "answer": "Berlin",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 4,
+                    "answer": "Paris",
+                    "isWrong": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "What is the currency used in Japan?",
+            "answers": [
+                {
+                    "answerId": 1,
+                    "answer": "Euro",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 2,
+                    "answer": "Yen",
+                    "isWrong": false
+                },
+                {
+                    "answerId": 3,
+                    "answer": "Dollar",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 4,
+                    "answer": "Pound",
+                    "isWrong": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "What is the capital of Italy?",
+            "answers": [
+                {
+                    "answerId": 1,
+                    "answer": "Madrid",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 2,
+                    "answer": "Rome",
+                    "isWrong": false
+                },
+                {
+                    "answerId": 3,
+                    "answer": "Berlin",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 4,
+                    "answer": "Paris",
+                    "isWrong": true
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What is the currency used in Germany?",
+            "answers": [
+                {
+                    "answerId": 1,
+                    "answer": "Euro",
+                    "isWrong": false
+                },
+                {
+                    "answerId": 2,
+                    "answer": "Yen",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 3,
+                    "answer": "Dollar",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 4,
+                    "answer": "Pound",
+                    "isWrong": true
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What is the capital of the United Kingdom?",
+            "answers": [
+                {
+                    "answerId": 1,
+                    "answer": "Madrid",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 2,
+                    "answer": "Rome",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 3,
+                    "answer": "London",
+                    "isWrong": false
+                },
+                {
+                    "answerId": 4,
+                    "answer": "Paris",
+                    "isWrong": true
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "What is the currency used in the United States?",
+            "answers": [
+                {
+                    "answerId": 1,
+                    "answer": "Euro",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 2,
+                    "answer": "Yen",
+                    "isWrong": true
+                },
+                {
+                    "answerId": 3,
+                    "answer": "Dollar",
+                    "isWrong": false
+                },
+                {
+                    "answerId": 4,
+                    "answer": "Pound",
+                    "isWrong": true
+                }
+            ]
+        }    
+    ]       
+}
