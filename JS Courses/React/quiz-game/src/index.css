@@ -4,38 +4,46 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 6px 4px 9px -4px rgba(0,0,0,0.75);
 }
 
 .question-container {
     background-color: #FFA500;
+    height: 33.33%;
+    text-align: center;
 }
 
 .answers-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    height: 33.33%;
 }
 
 .next-container {
     background-color: #FFA500;
+    height: 33.33%;
 }
 
 button {
     border: 1px solid black;
     background-color: #FFCA4B;
-    opacity: 0.9;
 }
 
-
 .rigth-answer {
-    color: green;
+    color: white;
+    background-color: green;
 }
 
 .wrong-answer {
-    color: red;
+    color: white;
+    background-color: red;
 }
 
 #root{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }

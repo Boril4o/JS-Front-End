@@ -7,9 +7,8 @@ import questionsJson from './questions.json';
 
 export default function Main() {
     const [question, setQuestion] = useState(getNextQuestion());
-    const [answers, setAnswers] = useState(question.answers.map(x => <Answer text={x.answer} />));
+    const [answers, setAnswers] = useState(question.answers.map(x => <Answer key={x.answerId} text={x.answer} />));
     const [isClicked, setClicked] = useState(false);
-    const [isNewRender, setIsNewRender] = useState(true);
 
     function handleQuestionClick(e) {
         if (isClicked) {
@@ -24,10 +23,10 @@ export default function Main() {
 
            let newAnswers = question.answers.map(x => {
             if (x.answerId === clickedAnswer.answerId) {
-                return <Answer text={x.answer} isWrong={isWrong}/>;
+                return <Answer key={x.answerId} text={x.answer} isWrong={isWrong}/>;
             }
 
-            return <Answer text={x.answer} />;
+            return <Answer key={x.answerId} text={x.answer} />;
             });
 
             setAnswers(newAnswers);
@@ -36,17 +35,10 @@ export default function Main() {
     }
 
     function handleNextClicked() {
-        setQuestion(getNextQuestion(question.id));
+        const nexQuestion = getNextQuestion(question.id);
+        setQuestion(nexQuestion);
+        setAnswers(nexQuestion.answers.map(x => <Answer key={x.answerId} text={x.answer} />));
         setClicked(false);
-    }
-
-    function getAnswers() {
-        if (isNewRender) {
-            setIsNewRender(false);
-            return (question.answers.map(x => <Answer text={x.answer} />));
-        }
-        
-        return answers;
     }
 
     return (
@@ -55,7 +47,7 @@ export default function Main() {
                 <Question question={question.question} />
             </section>
             <section className='answers-container' onClick={handleQuestionClick}>
-                {getAnswers()}
+                {answers}
             </section>
             <section className='next-container'>
                 <button onClick={handleNextClicked}>Next</button>
