@@ -10,14 +10,10 @@ export default function Home() {
         setName(e.target.value);
     }
 
-    function handleSubmit() {
-        return `/Country/${name}`;
-    }
-
     return (
         <form>
             <input onChange={handleChange} value={name} type='text' id='country-name' placeholder='Search country by name' />
-            <button id='submit-button'><Link to={handleSubmit()}>Submit</Link></button>
+            <button id='submit-button'><Link to={`/country/${name}`}>Submit</Link></button>
         </form>
     );
 }
