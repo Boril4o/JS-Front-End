@@ -6,4 +6,7 @@ body {
     border: 1px solid rgb(197, 31, 31);
     padding: 30px;
     border-radius: 10px;
+    align-self: center;
+    position: absolute;
+    top: 25%;
 }

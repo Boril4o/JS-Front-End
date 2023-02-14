@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from "react-router-dom";
+import { useParams} from "react-router-dom";
 import '../Css/CountryInfo.css';
 
 export default function CountryInfo() {
@@ -24,7 +24,9 @@ export default function CountryInfo() {
     console.log(country);
 
     return(
+        <>
         <div id='container'>
+        
             {country ? (
                 <>
                     <h1>{country.name}</h1>
@@ -36,5 +38,6 @@ export default function CountryInfo() {
                     <p>loading...</p>
                 )}
         </div>
+        </>
     );
 }
