@@ -1,0 +1,62 @@
+/* TODO: Add responsive styles here... */
+@media only screen and (max-width: 600px){
+   .collapse {
+    display: none;
+   }
+   
+   .container-fluid.hero img {
+    display: none;
+   }
+
+   #home .container .navbar .navbar-brand {
+    margin: auto;
+   }
+
+   #home .container .navbar .navbar-brand img {
+    width: 100px;
+   }
+
+   #home .container-fluid .container h1{
+    margin-top: 60px;
+   }
+
+   #home .container-fluid .container h1,
+   #home .container-fluid .container p,
+   #about-us .container-fluid .container .row .service-txt h2, 
+   .row {
+    text-align: center;
+   }
+
+   .hero-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+   }
+
+   #about-us .container-fluid .container .row .service-txt .service-btn a{
+    width: 280px;
+    text-align: center;
+   }
+
+   .service-box {
+      width: 300px;
+      margin-left: 0px;
+   }
+
+   .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .contact-btn{
+      display: none;
+   }
+
+   .contact-nav {
+      display: flex;
+      flex-direction: column;
+   }
+
+}
